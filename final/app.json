@@ -2,7 +2,7 @@
   "expo": {
     "name": "TripCast",
     "slug": "TripCast",
-    "privacy": "public",
+        "privacy": "public",
     "sdkVersion": "32.0.0",
     "platforms": [
       "ios",
@@ -23,7 +23,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "edu.ucf.mobiledev",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "edu.ucf.mobiledev"
     }
   }
 }
