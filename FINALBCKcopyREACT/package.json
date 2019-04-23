@@ -1,0 +1,26 @@
+{
+  "name": "trip-cast",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.18.1",
+    "numeral": "^2.0.6",
+    "react": "^15.6.1",
+    "react-autocomplete": "^1.5.9",
+    "react-datepicker": "^0.48.0",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-map-gl": "^3.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://derekswingley.com/lab/trip-cast"
+}
